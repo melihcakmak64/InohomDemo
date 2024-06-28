@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Durum: Basıldığında -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#403E3E"/> <!-- Basıldığında arka plan rengi -->
+            <corners android:radius="8dp"/> <!-- Köşe yuvarlatması -->
+        </shape>
+    </item>
+    <!-- Varsayılan durum -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#3B070707"/> <!-- Varsayılan arka plan rengi -->
+        </shape>
+    </item>
+</selector>
